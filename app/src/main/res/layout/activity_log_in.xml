@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/anhnen"
+    android:layout_height="match_parent"
+    tools:context=".activity.LogInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icoichat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emchat"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:textSize="35sp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100sp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:textColor="@color/black"
+            android:id="@+id/edtAccounts"
+            android:textColorHint="#A58282"
+            android:paddingLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:singleLine="true"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/user_24"
+            android:layout_alignLeft="@id/edtAccounts"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Mật khẩu"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="#A58282"
+            android:paddingLeft="30dp"
+            android:id="@+id/edtPassword"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_alignRight="@id/edtPassword"
+            android:layout_height="60dp"
+            android:id="@+id/btnOnPass"
+            android:layout_marginRight="17dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/hienmk"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/pass"
+            android:layout_alignLeft="@id/edtPassword"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Đăng Nhập"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:id="@+id/btnLogIn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Đăng kí"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/clickSignIn"/>
+
+</LinearLayout>

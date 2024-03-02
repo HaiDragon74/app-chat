@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "375953675173",
+    "firebase_url": "https://app-5e6a4-default-rtdb.firebaseio.com",
+    "project_id": "app-5e6a4",
+    "storage_bucket": "app-5e6a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375953675173:android:a3152ac03a6c46ca4d4e4c",
+        "android_client_info": {
+          "package_name": "com.example.appchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaDLwVzBRrBBsMIP90cfXvGzVOOieD52w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375953675173:android:f725eb9b8430141e4d4e4c",
+        "android_client_info": {
+          "package_name": "com.example.bai28ungdungdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaDLwVzBRrBBsMIP90cfXvGzVOOieD52w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375953675173:android:fabe485c4fe49a9c4d4e4c",
+        "android_client_info": {
+          "package_name": "com.example.emchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaDLwVzBRrBBsMIP90cfXvGzVOOieD52w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
